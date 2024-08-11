@@ -85,8 +85,11 @@ TW_EXCLUDE_TZDATA := true
 TW_EXCLUDE_BASH := true
 TW_EXCLUDE_LPTOOLS := true
 TW_EXCLUDE_LPDUMP := true
-TW_NO_CPU_TEMP         := true
-TW_NO_HAPTICS          := true
+TW_NO_CPU_TEMP := true
+TW_NO_HAPTICS  := true
+# ADDING LOG
+TARGET_USES_LOGD := true
+TWRP_INCLUDE_LOGCAT := true
 
 # Maintainer/Version
 TW_DEVICE_VERSION := 8227L by SK
